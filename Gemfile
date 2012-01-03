@@ -9,6 +9,8 @@ gem 'sqlite3', '1.3.5', :group => :development
 
 gem 'pg'
 
+gem "gravatar_image_tag", "~> 1.0.0"
+
 group :development do
   gem 'rspec-rails', '2.6.1'
   gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
@@ -23,6 +25,7 @@ group :test do
   gem 'autotest-rails-pure', '~> 4.1.2'
   # gem 'autotest-fsevent', '0.2.4'
   gem 'autotest-growl'
+  gem 'factory_girl_rails', '1.0'
 
 end
 
