@@ -13,7 +13,7 @@ gem "gravatar_image_tag", "~> 1.0.0"
 
 group :development do
   gem 'rspec-rails', '2.6.1'
-  gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
+  gem "annotate", "~> 2.4.0"
 
 end
 
